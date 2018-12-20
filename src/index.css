@@ -1,0 +1,33 @@
+body {
+    background-color: #F9F9F9;
+}
+
+#app {
+    overflow-x: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@media (min-width: 700px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1039px;
+    }
+}
