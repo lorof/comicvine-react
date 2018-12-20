@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "./Description.css"
+import "./Description.css";
 
 const TOKEN = process.env.REACT_APP_KEY;
 
